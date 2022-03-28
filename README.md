@@ -23,10 +23,14 @@ A file named "white_noise.wav" will be written into your current working directo
 To change the default options, use these switches:
 ```
 Usage of ./white-noise-generator:
-  -bits=32: Sample rate
-  -duration=60: Duration in seconds
-  -filename="white_noise.wav": Output file name
-  -rate=44100: Bitrate
+  -bits int
+        Significant Bits (default 32)
+  -d int
+        Duration in seconds (default 60)
+  -o string
+        Output file name (default "noise.wav")
+  -rate int
+        Sample Rate (default 44100)
 ```
 
 ### See also
